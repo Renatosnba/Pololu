@@ -444,7 +444,7 @@ void loop()
     // Check for the ending spot.
     // If all three middle sensors are on dark black, we have
     // solved the maze.
-    if (sensors[0] > 600 && sensors[1] > 600 && sensors[2] > 600 && sensors[3] > 600 && sensors[4] > 600)
+    if (sensors[1] > 600 && sensors[2] > 600 && sensors[3] > 600)
       break;
 
     // Intersection identification is complete.
